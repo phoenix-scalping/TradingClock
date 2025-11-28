@@ -38,6 +38,13 @@
   <img width="300" alt="image" src="https://github.com/user-attachments/assets/d6e55af4-4bf9-4795-91c4-5743cb03e8a7" />
 </p>
 
+В папке с установленной программой можно заменить звуки оповещений на свои
+<p align="left">
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/8ed8f1d6-fe3f-4f4c-bce9-e66b5830d7b7" />
+</p>
+
+
+
 
 
 
