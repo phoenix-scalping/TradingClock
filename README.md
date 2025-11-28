@@ -1,4 +1,19 @@
 # TradingClock
+
+<!-- Бейджи (Shields.io) - создают вид профессионального продукта -->
+  ![GitHub release (latest by date)](https://img.shields.io/github/v/release/phoenix-scalping/TradingClock)
+  ![GitHub downloads](https://img.shields.io/github/downloads/phoenix-scalping/TradingClock/total)
+  ![Platform](https://img.shields.io/badge/platform-Windows-blue)
+
+---
+
+## 📥 Скачать
+Актуальная версия для Windows:
+
+### [👉 Скачать TradingClock Installer (exe)](https://github.com/phoenix-scalping/TradingClock/releases/latest)
+
+---
+
 Часы работают в режиме поверх всех окон
 <p align="left">
   <img width="400" alt="image" src="https://github.com/user-attachments/assets/4ddabcf4-e891-4418-a5d5-9676d012ba2b" />
