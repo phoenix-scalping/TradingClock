@@ -1,0 +1,27 @@
+name: Create Release via Bot
+
+on:
+  push:
+    tags:
+      - 'v*' # Скрипт сработает, если тег начинается с "v" (например, v1.0.0)
+
+permissions:
+  contents: write # Разрешаем боту создавать релизы
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          # Заголовок релиза
+          name: Release ${{ github.ref_name }}
+          # Текст описания (можно менять потом руками)
+          body: |
+            Автоматический релиз от имени организации.
+            Файлы инсталлера прикреплены ниже.
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
